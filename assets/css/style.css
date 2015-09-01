@@ -1,0 +1,125 @@
+.color-base {
+  border-radius: 20px;
+  box-sizing: border-box;
+  border-width: 2px;
+  background-color: transparent;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 18px;
+  border-color: #428bca;
+  color: #428bca;
+}
+
+.color-base:hover {
+  color: #fff;
+  border: 2px solid #428bca;
+  background-color: #428bca;
+}
+
+.color-slate1 {
+  border-radius: 20px;
+  box-sizing: border-box;
+  border-width: 2px;
+  background-color: transparent;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 18px;
+  border-color: #c5d0e2;
+  color: #c5d0e2;
+}
+
+.color-slate1:hover {
+  color: #fff;
+  border: 2px solid #c5d0e2;
+  background-color: #c5d0e2;
+}
+
+.color-slate2 {
+  border-radius: 20px;
+  box-sizing: border-box;
+  border-width: 2px;
+  background-color: transparent;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 18px;
+  border-color: #949baa;
+  color: #949baa;
+}
+
+.color-slate2:hover {
+  color: #fff;
+  border: 2px solid #949baa;
+  background-color: #949baa;
+}
+
+.color-slate3 {
+  border-radius: 20px;
+  box-sizing: border-box;
+  border-width: 2px;
+  background-color: transparent;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 18px;
+  border-color: #585c66;
+  color: #585c66;
+}
+
+.color-slate3:hover {
+  color: #fff;
+  border: 2px solid #585c66;
+  background-color: #585c66;
+}
+
+.btn-default {
+  border-radius: 3px;
+  box-sizing: border-box;
+  border-width: 2px;
+  background-color: transparent;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 18px;
+  border-color: #93b2c9;
+  color: #93b2c9;
+}
+
+.btn-default:hover {
+  border-color: #93b2c9;
+  color: #93b2c9;
+}
+
+.btn-inactive,
+.btn-inactive:hover {
+  background-color: #93b2c9;
+  border-color: #93b2c9;
+  color: #fff;
+  cursor: default;
+}
+
+.btn-cancel {
+  border-radius: 3px;
+  box-sizing: border-box;
+  border-width: 2px;
+  background-color: transparent;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 18px;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+  color: #585c66;
+}
+
+.btn-cancel:hover {
+  background-color: #afafaf;
+  border-color: #afafaf;
+  color: #585c66;
+}
+
+input[type=text] {
+  color: #333;
+}

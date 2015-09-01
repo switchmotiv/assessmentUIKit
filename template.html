@@ -1,63 +1,184 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="assets/paper_img/favicon.ico">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	
-	<title>Paper Kit by Creative Tim</title>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="assets/paper_img/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
-    
-    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
-    <link href="assets/css/ct-paper.css" rel="stylesheet"/>
-    <link href="assets/css/demo.css" rel="stylesheet" /> 
-        
-    <!--     Fonts and icons     -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-      
+  <title>Paper Kit by Creative Tim</title>
+
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta name="viewport" content="width=device-width" />
+
+  <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/ct-paper.css" rel="stylesheet" />
+  <link href="assets/css/demo.css" rel="stylesheet" />
+
+  <!--     Fonts and icons     -->
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,300,700italic,400italic,300italic' rel='stylesheet' type='text/css">
+
 </head>
+
 <body>
-    
-    
+  <!--    navbar come here          -->
+  <nav class="navbar navbar-ct-translucent" role="navigation-demo" id="demo-navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="http://www.creative-tim.com">
+          <div class="logo-container">
+            <div class="logo">
+              <img src="assets/paper_img/new_logo.png" alt="Creative Tim Logo">
+            </div>
+            <div class="brand">
+              Assessment UI Kit
+            </div>
+          </div>
+        </a>
+      </div>
 
-<!--    navbar come here          -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <!-- <div class="collapse navbar-collapse" id="navigation-example-2">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="components.html" class="btn btn-danger btn-simple">Components</a>
+          </li>
+          <li>
+            <a href="tutorial.html" class="btn btn-danger btn-simple">Tutorial</a>
+          </li>
+        </ul>
+      </div> -->
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-->
+  </nav>
+
+
+  <!-- end navbar  -->
 
 
 
-<!-- end navbar  -->
+  <div class="wrapper">
+    <div class="demo-header">
+      <div class="motto">
+        <h1 class="title-uppercase">Assessment UI Kit</h1>
+        <h3>Design Component Library</h3>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="section section-nude">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+
+              <!-- Left hand Nav -->
+              <div class="fixed-section">
+                <ul>
+                  <li><a href="#buttons-row">Buttons</a></li>
+                  <li><a href="#checkbox-row">Checkbox/Radio</a></li>
+                  <li><a href="#dropdown-row">Dropdown</a></li>
+                  <li><a href="#inputs-row">Inputs</a></li>
+                  <li><a href="#textarea-row">Textarea</a></li>
+                  <li><a href="#navbar-row">Navigation</a></li>
+                  <li><a href="#subscription-row">Footers</a></li>
+                  <li><a href="#pagination-row">Pagination</a></li>
+                  <li><a href="#progressbar-row">Progress Bars</a></li>
+                  <li><a href="#sliders-row">Sliders</a></li>
+                  <li><a href="#labels-row">Labels</a></li>
+                  <li><a href="#datepicker-row">Datepicker</a></li>
+                  <li><a href="#modal-row">Modals</a></li>
+                  <li><a href="#tooltip-row">Tooltips/Popovers</a></li>
+                  <li><a href="#notification-row">Notification</a></li>
+                </ul>
+              </div>
+              <!-- END Left hand Nav -->
+
+
+            </div>
+            <div class="col-md-8 col-md-offset-1">
+              <div class="tim-container" style="min-height: 2000px;">
+
+                <!-- buttons row -->
+                <div class="tim-row" id="buttons-row">
+
+                  <h2>Buttons </h2>
+                  <legend></legend>
+                  <h4>Colors</h4>
+                  <p>
+                    We worked over the original Bootstrap classes, choosing a different color pallete. We opted for this beautiful scheme of pale colors:
+                  </p>
+                  <p>
+                    <button class="btn btn-default">Default</button>
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-info">Info</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-warning">Warning</button>
+                    <button class="btn btn-danger">Danger</button>
+                    <button class="btn btn-neutral">Neutral</button>
+
+                  </p>
+                  <br />
+                  <div class="area-line">
+                    <a data-target="#buttonColor" href="javascript: void(0);" data-toggle="collapse">
+                      See Full Implementation
+                    </a>
+                    <div id="buttonColor" class="collapse">
+                      <pre class="prettyprint">
+    &lt;button class=&quot;btn btn-default&quot;&gt;Default&lt;/button&gt;
+
+    &lt;button class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+
+    &lt;button class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+
+    &lt;button class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+
+    &lt;button class=&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+
+    &lt;button class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+
+    &lt;button class=&quot;btn btn-neutral&quot;&gt;Neutral&lt;/button&gt;
+    </pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
-<div class="wrapper">
-    
-    <!-- content come here     -->
-    
-</div>
+        <!-- Modal Bodies come here -->
 
-
-
-<!-- Modal Bodies come here -->
-
-<!--   end modal -->
+        <!--   end modal -->
 
 
 </body>
 
-    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
-	<script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
 
-	<script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
-	
-	<!--  Plugins -->
-	<script src="assets/js/ct-paper-checkbox.js"></script>
-	<script src="assets/js/ct-paper-radio.js"></script>
-	<script src="assets/js/bootstrap-select.js"></script>
-	<script src="assets/js/bootstrap-datepicker.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-	
-	<script src="assets/js/ct-paper.js"></script>    
+<script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+
+<!--  Plugins -->
+<script src="assets/js/ct-paper-checkbox.js"></script>
+<script src="assets/js/ct-paper-radio.js"></script>
+<script src="assets/js/bootstrap-select.js"></script>
+<script src="assets/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+<script src="assets/js/ct-paper.js"></script>
+
 </html>
