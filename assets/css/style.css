@@ -1,0 +1,61 @@
+.dropdown-primary {
+  background-color: #c5d0e2;
+  border-color: #c5d0e2;
+  color: #585c66;
+}
+.dropdown-primary:hover {
+  background-color: #949baa;
+  border-color: #949baa;
+  color: #585c66;
+}
+.dropdown-primary:active {
+  background-color: #585c66;
+  border-color: #585c66;
+  color: #c5d0e2;
+}
+.open > .btn.dropdown-toggle {
+  background-color: #949baa;
+  border-color: #949baa;
+  color: #c5d0e2;
+}
+.btn .caret,
+.btn:hover .caret {
+  border-top-color: #585c66;
+}
+.btn:active .caret {
+  border-top-color: #c5d0e2;
+}
+.open > .btn.dropdown-toggle .caret {
+  border-top-color: #c5d0e2;
+}
+.btn-outline {
+  border-radius: 3px;
+  box-sizing: border-box;
+  border-width: 2px;
+  background-color: transparent;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 18px;
+  background-color: #fff;
+  border-color: #c5d0e2;
+  color: #585c66;
+}
+.btn-outline:hover {
+  background-color: #c5d0e2;
+  border-color: #c5d0e2;
+  color: #585c66;
+}
+.btn-outline:focus {
+  background-color: #949baa;
+  border-color: #949baa;
+}
+.btn-outline:active {
+  background-color: #585c66;
+  border-color: #585c66;
+  color: #c5d0e2;
+}
+.navbar-nav {
+  float: left;
+  margin: 0 0 0 16px;
+}
