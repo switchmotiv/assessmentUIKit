@@ -89,7 +89,8 @@
 
 .btn-default:hover {
   border-color: #93b2c9;
-  color: #93b2c9;
+  color: #fff;
+  background-color: #93b2c9;
 }
 
 .btn-inactive,
@@ -101,14 +102,6 @@
 }
 
 .btn-cancel {
-  border-radius: 3px;
-  box-sizing: border-box;
-  border-width: 2px;
-  background-color: transparent;
-  line-height: 36px;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 0px 18px;
   background-color: #e5e5e5;
   border-color: #e5e5e5;
   color: #585c66;
@@ -117,9 +110,50 @@
 .btn-cancel:hover {
   background-color: #afafaf;
   border-color: #afafaf;
+}
+
+.btn-cancel:focus {
+  background-color: #afafaf;
+  border-color: #afafaf;
+}
+
+.btn-cancel:active {
+  background-color: #939393;
+  border-color: #939393;
+}
+
+.dropdown-primary {
+  background-color: #c5d0e2;
+  border-color: #c5d0e2;
   color: #585c66;
 }
 
+.dropdown-primary:hover {
+  background-color: #949baa;
+  border-color: #949baa;
+  color: #585c66;
+}
+.dropdown-primary:active {
+  background-color: #585c66;
+  border-color: #585c66;
+  color: #c5d0e2;
+}
+.open > .btn.dropdown-toggle {
+  background-color: #949baa;
+  border-color: #949baa;
+  color: #c5d0e2;
+}
+.btn .caret,
+.btn:hover .caret {
+  border-top-color: #585c66;
+}
+.btn:active .caret {
+  border-top-color: #c5d0e2;
+}
+.open > .btn.dropdown-toggle .caret {
+  border-top-color: #c5d0e2;
+}
+
+
 input[type=text] {
   color: #333;
-}
